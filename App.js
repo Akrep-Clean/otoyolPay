@@ -1,13 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import HomeScreen from './homescreen';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hadi bakalimm</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <HomeScreen />
 }
 
 const styles = StyleSheet.create({
