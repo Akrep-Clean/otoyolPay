@@ -1,13 +1,16 @@
+
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+
 
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text>Burasi Home Screen!</Text>
-      <Button
+      <Button 
+        color="black"
         title="Hakkımızda Sayfasına Git"
-        onPress={() => navigation.navigate('About')}
+        onPress={() => navigation.navigate('Rota')}
       />
     </View>
   );
